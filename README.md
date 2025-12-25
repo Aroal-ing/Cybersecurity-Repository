@@ -6,19 +6,19 @@ Hands-on cybersecurity learning portafolio focused on vulnerabilities, exploitat
 ## About Me
 I am a Computer Systems Engineering student with a specialization in Cybersecurity and Networking.
 I have hands-on knowledge in:
--Linux fundamentals
--Common vulnerabilities and basic exploitation techniques
--Technical documentation of security findings
+- Linux fundamentals
+- Common vulnerabilities and basic exploitation techniques
+- Technical documentation of security findings
 
 Additionaly, i have foundational to intermediate knowledge in networking, including:
--Network architecture (LAN and WAN)
--Logical an Physical network implemetation 
--Structured cabling
--Site deployment and infrestructure setup 
--Configuration of switches and routers
--Internet administration and access control
--Wireless Access Points (APs)
--CCTV systems and NVR-DVR configuration
+- Network architecture (LAN and WAN)
+- Logical an Physical network implemetation 
+- Structured cabling
+- Site deployment and infrestructure setup 
+- Configuration of switches and routers
+- Internet administration and access control
+- Wireless Access Points (APs)
+- CCTV systems and NVR-DVR configuration
 
 My main interest lies in understaning how vulnerabilities originate, how they can be explited, and how to properly mitigate them to improve security posture.
 
