@@ -1,7 +1,6 @@
 # Cybersecurity-Repository
 Hands-on cybersecurity learning portafolio focused on vulnerabilities, exploitation and mitigation. 
 
-# Cybersecurity Portfolio
 
 ## About Me
 I am a Computer Systems Engineering student with a specialization in Cybersecurity and Networking.
