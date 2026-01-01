@@ -46,7 +46,7 @@ DIRB prueba múltiples rutas de forma automática con nombres comunes y predecib
 
 ### Estructura del comando
 ```bash
-dirb URL_BASE WORDLIST
+dirb URL_BASE
 ```
 
 ## Mitigación
