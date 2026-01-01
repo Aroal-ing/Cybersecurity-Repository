@@ -1,0 +1,49 @@
+# Introducción a la Seguridad Ofensiva
+
+## Objetivo
+Realizar el primer acercamiento a la seguridad ofensiva mediante la enumeración de contenido en una aplicación web vulnerable.
+
+## ¿Qué es la Seguridad Ofensiva?
+La seguridad ofensiva, también conocida como **Red Teaming**, consiste en simular ataques reales contra sistemas informáticos con el objetivo de:
+- Identificar errores de software
+- Detectar malas configuraciones
+- Encontrar vulnerabilidades en aplicaciones
+- Evaluar el impacto de un acceso no autorizado
+
+Todo esto se realiza en **entornos controlados y autorizados** con fines educativos o de mejora de la seguridad.
+
+---
+
+## Escenario: FAKEBANK
+En este laboratorio se trabaja sobre una aplicación web simulada llamada **FAKEBANK**, utilizada para practicar técnicas básicas de enumeración web.
+
+---
+
+## Content Discovery (Descubrimiento de Contenido)
+
+En muchos sitios web o aplicaciones existen:
+- Funciones administrativas
+- Paneles internos
+- Rutas de prueba o respaldo
+
+Estas funciones a veces quedan **expuestas mediante URLs ocultas o no enlazadas**, accesibles para cualquier usuario que conozca la ruta correcta.
+
+Si se descubren estas rutas, un atacante podría:
+- Acceder a funcionalidades restringidas
+- Realizar acciones que un usuario normal no debería poder ejecutar
+
+---
+
+## Herramienta Utilizada: DIRB
+
+Para el descubrimiento de contenido se utilizó la herramienta **DIRB**, la cual realiza **fuerza bruta sobre URLs** utilizando listas de palabras (wordlists).
+
+DIRB prueba múltiples rutas de forma automática con nombres comunes y predecibles, aprovechando malas prácticas en el nombrado de directorios y archivos.
+
+---
+
+## Uso básico de DIRB
+
+### Estructura del comando
+```bash
+dirb URL_BASE WORDLIST
