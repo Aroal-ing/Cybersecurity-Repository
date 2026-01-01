@@ -47,3 +47,13 @@ DIRB prueba múltiples rutas de forma automática con nombres comunes y predecib
 ### Estructura del comando
 ```bash
 dirb URL_BASE WORDLIST
+
+## Mitigación
+
+Para evitar este tipo de problemas se recomienda:
+
+- Eliminar archivos y directorios innecesarios
+- Deshabilitar el listado de directorios
+- Implementar controles de acceso adecuados
+- Utilizar WAF y rate limiting
+- Evitar nombres predecibles en rutas sensibles
